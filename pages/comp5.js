@@ -1,0 +1,93 @@
+import React from 'react'
+import Image from 'next/image'
+import leftimg from '../public/image 98.png'
+import watch from '../public/image 35.png'
+import camera from '../public/image 28.png'
+import headphone from '../public/image 86.png'
+import pot from '../public/sjug.png'
+import gaming from '../public/image 29.png'
+import laptop from '../public/image 34.png'
+import phone from '../public/image 32.png'
+import iphone from '../public/image 33.png'
+
+export default function comp4() {
+    return (
+        <div className='flex justify-center'>
+            <div className='container flex justify-center'>
+                <div className='flex justify-center container bg-white h-[240px] w-[1160px] mt-5 rounded-md border-[1px] border-[#d9d9d9]'>
+                    <div>
+                        <Image className='h-[240px]' src={leftimg} alt='image' />
+                        <h2 className='font-semibold text-2xl ml-5 -mt-[225px]'>Consumer <br />electronics and <br /> gadgets</h2>
+                        <button className='bg-white ml-5 rounded-md font-semibold px-3 py-2 pt-1 mt-5 '>Source now</button>
+                    </div>
+
+                    <div>
+                        <div className='flex'>
+                            <div className='px-6 py-1 border-r-[#d6d6d6] border-[1px]'>
+                                <h4 className='font-semibold text-xl'>Smart watches</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 19</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={watch} alt='image' />
+                                </div>
+                            </div>
+                            <div className='px-6 py-1 border-r-[#d6d6d6] border-[1px]'>
+                                <h4 className='font-semibold text-xl'>Cameras</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 19</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={camera} alt='image' />
+                                </div>
+                            </div>
+                            <div className='px-6 py-1 border-r-[#d6d6d6] border-[1px]'>
+                                <h4 className='font-semibold text-xl'>Headphones</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 19</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={headphone} alt='image' />
+                                </div>
+                            </div>
+                            <div className='px-6 py-1 border-b-[#d6d6d6] border-[1px]'>
+                                <h4 className='font-semibold text-xl'>Smart watches</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 19</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={pot} alt='image' />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='flex'>
+                            <div className='px-6 py-2 border-r-[#d6d6d6] border-[1px]'>
+                                <h4 className='font-semibold text-xl'>Gaming set</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 100</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={gaming} alt='image' />
+                                </div>
+                            </div>
+                            <div className='px-6 py-2 border-r-[#d6d6d6] border-[1px]'>
+                                <h4 className='font-semibold text-xl'>Laptop & PC</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 39</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={laptop} alt='image' />
+                                </div>
+                            </div>
+                            <div className='px-8 py-2 mr-3 border-r-[#d6d6d6] border-[1px]'>
+                                <h4 className='font-semibold text-xl'>Smartphones</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 19</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={phone} alt='image' />
+                                </div>
+                            </div>
+                            <div className='px-6 py-2 mr-1'>
+                                <h4 className='font-semibold text-xl'>Electric kattle</h4>
+                                <div className='flex space-x-12'>
+                                    <div className='font-semibold text-[#848484]'>From <p className='whitespace-nowrap'>USD 10</p></div>
+                                    <Image className=' cursor-pointer hover:scale-105 hover:duration-500' src={iphone} alt='image' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    )
+}
