@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[899],{9964:(_,n,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/comp5",function(){return u(1434)}])}},_=>{var n=n=>_(_.s=n);_.O(0,[675,434,888,774,179],()=>n(9964)),_N_E=_.O()}]);
